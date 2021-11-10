@@ -1,0 +1,12 @@
+.demo{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bg-img{
+     background: url('../src/images/1.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 400px;
+}  
