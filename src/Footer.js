@@ -1,20 +1,18 @@
 import React from 'react'
-import Body from './Body'
-import Header from './Header'
+import './header.css'
 
 
 const Footer = () => {
     return (
         <>
-     
-<div class="container">
-  <footer className="py-3 my-4">
+  <div class="container-fluit footer-wrap">
+  <footer className="py-3 my-4 text-light">
     <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-      <li className="nav-item">Home</li>
-      <li className="nav-item">Features</li>
+      <li className="nav-item pe-3">Home</li>
+      <li className="nav-item pe-3">Features</li>
       <li className="nav-item">About</li>
     </ul>
-    <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+    <p class="text-center text-light">&copy; 2021 Company, Inc</p>
   </footer>
 </div>
 </>

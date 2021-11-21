@@ -1,9 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import First from './First';
-import Second from './Second';
-import Third from './Third';
-import { Fourth, Hello } from './Fourth';
 import Routes from './Routes';
 // function name and ./ is file name.
 

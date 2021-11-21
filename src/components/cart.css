@@ -1,0 +1,10 @@
+.cart__image img{
+    width: 100px;
+}
+input:focus{
+    /* outline: 2px !important; */
+}
+.fai{
+    font-size: 30px;
+    color: #f61b10;
+}

@@ -1,0 +1,33 @@
+.treanding-image img{
+    height: 200px;
+    width: 300px !important;
+    object-fit: cover;
+    object-position: top;
+}
+.slick-slide{
+    padding: 0 10px;
+}
+.slick-list{
+    margin: 0 2em;
+}
+.slick-prev{
+    left: 0.5% !important;
+}
+.slick-next{
+    right:3.5% !important;
+}
+.slick-next:before,.slick-prev::before{
+    font-size: 35px;
+    line-height: 1;
+    color: orangered;
+}
+.footer-image img{
+    height: 50px;
+}
+.tranding__img{
+    transition: .4s ease;
+}
+
+.tranding__img img:hover{
+    transform: translateY(15px);
+}
